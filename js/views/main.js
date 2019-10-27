@@ -323,6 +323,10 @@ define({
                 
                 if (rate > 105) {
                 	navigator.vibrate(2000);
+                	document.body.style.backgroundImage = "url('angry.png')";
+                }
+                else {
+                	document.body.style.backgroundImage = "url('very-happy-emoji-icon.png')";
                 }
 
                 if (activePageId === 'info') {

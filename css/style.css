@@ -25,19 +25,23 @@
 }
 
 #angry {
-	background-size: cover;
-	background-color: #FF0000;
-}
-
-
-#heart-img {
 	margin: 5% auto;
-    background-image: url(../images/heart.png);
+    background-image: url(../images/angry.png);
     background-position: center;
     background-size: cover;
     width: 60%;
     height: 60%;
 }
+
+#heart-img {
+	margin: 5% auto;
+	background-image: url(../images/very-happy-emoji-icon.png);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+}
+
 
 .animate {
     -webkit-animation: heartMove 1.5s infinite;
